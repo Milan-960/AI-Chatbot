@@ -7,9 +7,6 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  // optimizeDeps: {
-  //   exclude: ["@xenova/transformers"],
-  // },
   fs: {
     strict: false, // Allow serving assets from any directory
   },
