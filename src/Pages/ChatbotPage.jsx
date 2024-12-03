@@ -1,5 +1,5 @@
 import React from "react";
-import AIChatbot from "./components/AIChatbot";
+import AIChatbot from "../components/AIChatbot";
 
 const ChatbotPage = () => {
   return (

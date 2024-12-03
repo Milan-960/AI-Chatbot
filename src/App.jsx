@@ -1,4 +1,4 @@
-import ChatbotPage from "./ChatbotPage";
+import ChatbotPage from "./Pages/ChatbotPage";
 
 function App() {
   return (
