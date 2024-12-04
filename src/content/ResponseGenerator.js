@@ -63,6 +63,14 @@ export class ResponseGenerator {
         ],
       },
       {
+        patterns: ["help", "need help", "assistance"],
+        responses: [
+          "What do you need help with? I'm here to assist you with a wide range of topics and tasks. Please let me know how I can help.",
+          "What kind of assistance do you need? I'm here to provide guidance and support in various areas. Let me know how I can help you.",
+          "I'm here to help! What's on your mind? Do you need help with a specific task, or just need someone to talk to?",
+        ],
+      },
+      {
         patterns: ["tell me joke", "joke"],
         responses: [
           "Here's one: Why couldn't the bicycle stand up by itself?\n" +
